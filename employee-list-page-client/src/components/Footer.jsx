@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="text-sm lg:text-3xl font-bold">
         {" "}
         <p>
-          Copyright © {new Date().getFullYear()} - All right reserved by appolo
+          Copyright © {new Date().getFullYear()} - All right reserved by Appolo
           Industries Ltd
         </p>
       </div>
