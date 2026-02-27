@@ -1,0 +1,15 @@
+{
+  "name": "employee-list-page-server",
+  "version": "1.0.0",
+  "description": "A Mock Server For the Employee List Page",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch ./database/employeeList.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MKC",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.9"
+  }
+}

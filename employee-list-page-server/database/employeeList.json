@@ -1,0 +1,455 @@
+{
+  "employees": [
+    {
+      "employeeId": "1",
+      "employeeName": "Mario Finch",
+      "designation": "Managing Director",
+      "email": "mario.finch@apollo.com",
+      "passportId": "M9048647",
+      "profileDescription": "Experienced executive leading organizational growth, strategic planning, and international partnerships across multiple sectors.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "employeeId": "2",
+      "employeeName": "Sophia Turner",
+      "designation": "Chief Operations Officer",
+      "email": "sophia.turner@apollo.com",
+      "passportId": "T4827391",
+      "profileDescription": "Oversees company operations ensuring efficiency, scalability, and cross-department collaboration.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "employeeId": "3",
+      "employeeName": "Liam Carter",
+      "designation": "Chief Technology Officer",
+      "email": "liam.carter@apollo.com",
+      "passportId": "C8392014",
+      "profileDescription": "Leads technology strategy, innovation initiatives, and digital transformation programs.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "employeeId": "4",
+      "employeeName": "Olivia Bennett",
+      "designation": "Chief Financial Officer",
+      "email": "olivia.bennett@apollo.com",
+      "passportId": "B4829103",
+      "profileDescription": "Responsible for financial planning, risk management, and corporate investment strategies.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "employeeId": "5",
+      "employeeName": "Noah Richardson",
+      "designation": "Head of Marketing",
+      "email": "noah.richardson@apollo.com",
+      "passportId": "R9021837",
+      "profileDescription": "Drives brand growth, digital campaigns, and market positioning strategies globally.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+
+    {
+      "employeeId": "6",
+      "employeeName": "Emma Collins",
+      "designation": "HR Director",
+      "email": "emma.collins@apollo.com",
+      "passportId": "C1839204",
+      "profileDescription": "Leads talent acquisition, workforce planning, and organizational culture initiatives.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/6.jpg"
+    },
+    {
+      "employeeId": "7",
+      "employeeName": "James Walker",
+      "designation": "Senior Software Engineer",
+      "email": "james.walker@apollo.com",
+      "passportId": "W8302947",
+      "profileDescription": "Specializes in scalable backend systems, APIs, and distributed architectures.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/7.jpg"
+    },
+    {
+      "employeeId": "8",
+      "employeeName": "Ava Martinez",
+      "designation": "Product Manager",
+      "email": "ava.martinez@apollo.com",
+      "passportId": "M9283746",
+      "profileDescription": "Coordinates product lifecycle from ideation to launch, ensuring user-centric solutions.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/8.jpg"
+    },
+    {
+      "employeeId": "9",
+      "employeeName": "Benjamin Harris",
+      "designation": "DevOps Engineer",
+      "email": "benjamin.harris@apollo.com",
+      "passportId": "H7482910",
+      "profileDescription": "Maintains CI/CD pipelines, cloud infrastructure, and system reliability processes.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg"
+    },
+    {
+      "employeeId": "10",
+      "employeeName": "Isabella Clark",
+      "designation": "UI/UX Designer",
+      "email": "isabella.clark@apollo.com",
+      "passportId": "C1928374",
+      "profileDescription": "Designs intuitive user interfaces and seamless digital experiences.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/10.jpg"
+    },
+    {
+      "employeeId": "11",
+      "employeeName": "William Scott",
+      "designation": "Business Analyst",
+      "email": "william.scott@apollo.com",
+      "passportId": "S8473621",
+      "profileDescription": "Analyzes business processes, identifies improvement areas, and bridges technical and operational teams.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/11.jpg"
+    },
+    {
+      "employeeId": "12",
+      "employeeName": "Mia Adams",
+      "designation": "Content Strategist",
+      "email": "mia.adams@apollo.com",
+      "passportId": "A9382710",
+      "profileDescription": "Develops engaging content strategies aligned with brand and customer engagement goals.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/12.jpg"
+    },
+    {
+      "employeeId": "13",
+      "employeeName": "Alexander Young",
+      "designation": "Cybersecurity Specialist",
+      "email": "alexander.young@apollo.com",
+      "passportId": "Y3748291",
+      "profileDescription": "Ensures system security, conducts vulnerability assessments, and manages compliance frameworks.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/13.jpg"
+    },
+    {
+      "employeeId": "14",
+      "employeeName": "Charlotte King",
+      "designation": "Data Scientist",
+      "email": "charlotte.king@apollo.com",
+      "passportId": "K8473629",
+      "profileDescription": "Builds predictive models and transforms complex datasets into actionable insights.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/14.jpg"
+    },
+    {
+      "employeeId": "15",
+      "employeeName": "Daniel Wright",
+      "designation": "Network Engineer",
+      "email": "daniel.wright@apollo.com",
+      "passportId": "W1827364",
+      "profileDescription": "Designs and maintains secure, high-performance network infrastructures.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/15.jpg"
+    },
+    {
+      "employeeId": "16",
+      "employeeName": "Amelia Hill",
+      "designation": "Quality Assurance Engineer",
+      "email": "amelia.hill@apollo.com",
+      "passportId": "H9182736",
+      "profileDescription": "Ensures product quality through automated and manual testing strategies.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/16.jpg"
+    },
+    {
+      "employeeId": "17",
+      "employeeName": "Matthew Green",
+      "designation": "Cloud Architect",
+      "email": "matthew.green@apollo.com",
+      "passportId": "G5627381",
+      "profileDescription": "Designs scalable cloud solutions and oversees cloud migration strategies.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/17.jpg"
+    },
+    {
+      "employeeId": "18",
+      "employeeName": "Harper Lewis",
+      "designation": "Finance Manager",
+      "email": "harper.lewis@apollo.com",
+      "passportId": "L1938472",
+      "profileDescription": "Manages budgeting, forecasting, and financial reporting processes.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/18.jpg"
+    },
+    {
+      "employeeId": "19",
+      "employeeName": "Joseph Hall",
+      "designation": "Frontend Developer",
+      "email": "joseph.hall@apollo.com",
+      "passportId": "H6728391",
+      "profileDescription": "Builds interactive and responsive user interfaces using modern frameworks.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg"
+    },
+    {
+      "employeeId": "20",
+      "employeeName": "Evelyn Allen",
+      "designation": "Backend Developer",
+      "email": "evelyn.allen@apollo.com",
+      "passportId": "A4827365",
+      "profileDescription": "Develops scalable backend services and database-driven applications.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/20.jpg"
+    },
+    {
+      "employeeId": "21",
+      "employeeName": "Samuel Baker",
+      "designation": "IT Support Specialist",
+      "email": "samuel.baker@apollo.com",
+      "passportId": "B8273649",
+      "profileDescription": "Provides technical support, troubleshooting, and system maintenance.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/21.jpg"
+    },
+    {
+      "employeeId": "22",
+      "employeeName": "Abigail Nelson",
+      "designation": "Operations Manager",
+      "email": "abigail.nelson@apollo.com",
+      "passportId": "N7364829",
+      "profileDescription": "Oversees daily operations and ensures process optimization.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/22.jpg"
+    },
+    {
+      "employeeId": "23",
+      "employeeName": "David Carter",
+      "designation": "Legal Advisor",
+      "email": "david.carter@apollo.com",
+      "passportId": "C2938475",
+      "profileDescription": "Provides legal guidance, compliance monitoring, and contract review.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/23.jpg"
+    },
+    {
+      "employeeId": "24",
+      "employeeName": "Ella Mitchell",
+      "designation": "Customer Success Manager",
+      "email": "ella.mitchell@apollo.com",
+      "passportId": "M4839201",
+      "profileDescription": "Ensures client satisfaction and long-term relationship management.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/24.jpg"
+    },
+    {
+      "employeeId": "25",
+      "employeeName": "Michael Perez",
+      "designation": "Sales Director",
+      "email": "michael.perez@apollo.com",
+      "passportId": "P9182734",
+      "profileDescription": "Leads sales strategy, partnerships, and revenue growth initiatives.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/25.jpg"
+    },
+    {
+      "employeeId": "26",
+      "employeeName": "Sofia Roberts",
+      "designation": "Procurement Manager",
+      "email": "sofia.roberts@apollo.com",
+      "passportId": "R7482913",
+      "profileDescription": "Manages vendor relationships and procurement strategies.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/26.jpg"
+    },
+    {
+      "employeeId": "27",
+      "employeeName": "Christopher Evans",
+      "designation": "Mobile App Developer",
+      "email": "christopher.evans@apollo.com",
+      "passportId": "E3829104",
+      "profileDescription": "Develops high-performance mobile applications for Android and iOS.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/27.jpg"
+    },
+    {
+      "employeeId": "28",
+      "employeeName": "Grace Phillips",
+      "designation": "Research Analyst",
+      "email": "grace.phillips@apollo.com",
+      "passportId": "P5738291",
+      "profileDescription": "Conducts market research and competitive analysis for strategic decisions.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/28.jpg"
+    },
+    {
+      "employeeId": "29",
+      "employeeName": "Andrew Campbell",
+      "designation": "Systems Administrator",
+      "email": "andrew.campbell@apollo.com",
+      "passportId": "C8473921",
+      "profileDescription": "Maintains servers, system configurations, and enterprise infrastructure.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/29.jpg"
+    },
+    {
+      "employeeId": "30",
+      "employeeName": "Lily Parker",
+      "designation": "Digital Marketing Manager",
+      "email": "lily.parker@apollo.com",
+      "passportId": "P1029384",
+      "profileDescription": "Leads SEO, SEM, and digital advertising campaigns.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/30.jpg"
+    },
+    {
+      "employeeId": "31",
+      "employeeName": "Joshua Edwards",
+      "designation": "Database Administrator",
+      "email": "joshua.edwards@apollo.com",
+      "passportId": "E5647382",
+      "profileDescription": "Ensures data integrity, security, and database optimization.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/31.jpg"
+    },
+    {
+      "employeeId": "32",
+      "employeeName": "Victoria Stewart",
+      "designation": "Training Coordinator",
+      "email": "victoria.stewart@apollo.com",
+      "passportId": "S8473620",
+      "profileDescription": "Designs and coordinates professional development programs.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/32.jpg"
+    },
+    {
+      "employeeId": "33",
+      "employeeName": "Ryan Morris",
+      "designation": "Technical Lead",
+      "email": "ryan.morris@apollo.com",
+      "passportId": "M2938471",
+      "profileDescription": "Leads engineering teams and oversees complex technical projects.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/33.jpg"
+    },
+    {
+      "employeeId": "34",
+      "employeeName": "Chloe Rogers",
+      "designation": "Graphic Designer",
+      "email": "chloe.rogers@apollo.com",
+      "passportId": "R9182730",
+      "profileDescription": "Creates compelling visual content for digital and print media.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/34.jpg"
+    },
+    {
+      "employeeId": "35",
+      "employeeName": "Nathan Reed",
+      "designation": "Security Analyst",
+      "email": "nathan.reed@apollo.com",
+      "passportId": "R4839207",
+      "profileDescription": "Monitors and mitigates security threats across IT systems.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/35.jpg"
+    },
+    {
+      "employeeId": "36",
+      "employeeName": "Zoe Cook",
+      "designation": "Public Relations Officer",
+      "email": "zoe.cook@apollo.com",
+      "passportId": "C8392017",
+      "profileDescription": "Manages corporate communications and public engagement strategies.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/36.jpg"
+    },
+    {
+      "employeeId": "37",
+      "employeeName": "Aaron Bailey",
+      "designation": "Project Coordinator",
+      "email": "aaron.bailey@apollo.com",
+      "passportId": "B2738491",
+      "profileDescription": "Coordinates cross-functional teams to ensure timely project delivery.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/37.jpg"
+    },
+    {
+      "employeeId": "38",
+      "employeeName": "Hannah Murphy",
+      "designation": "Administrative Officer",
+      "email": "hannah.murphy@apollo.com",
+      "passportId": "M1029387",
+      "profileDescription": "Supports executive management with administrative coordination.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/38.jpg"
+    },
+    {
+      "employeeId": "39",
+      "employeeName": "Dylan Foster",
+      "designation": "AI Engineer",
+      "email": "dylan.foster@apollo.com",
+      "passportId": "F9182736",
+      "profileDescription": "Develops machine learning models and AI-driven solutions.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/39.jpg"
+    },
+    {
+      "employeeId": "40",
+      "employeeName": "Natalie Simmons",
+      "designation": "HR Executive",
+      "email": "natalie.simmons@apollo.com",
+      "passportId": "S8473628",
+      "profileDescription": "Handles employee relations and recruitment processes.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/40.jpg"
+    },
+    {
+      "employeeId": "41",
+      "employeeName": "Caleb Ross",
+      "designation": "Support Engineer",
+      "email": "caleb.ross@apollo.com",
+      "passportId": "R2938472",
+      "profileDescription": "Resolves technical issues and supports enterprise clients.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/41.jpg"
+    },
+    {
+      "employeeId": "42",
+      "employeeName": "Aria Cox",
+      "designation": "SEO Specialist",
+      "email": "aria.cox@apollo.com",
+      "passportId": "C9182735",
+      "profileDescription": "Optimizes website visibility and search engine rankings.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/42.jpg"
+    },
+    {
+      "employeeId": "43",
+      "employeeName": "Isaac Ward",
+      "designation": "Full Stack Developer",
+      "email": "isaac.ward@apollo.com",
+      "passportId": "W4839209",
+      "profileDescription": "Builds end-to-end web applications and scalable systems.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/43.jpg"
+    },
+    {
+      "employeeId": "44",
+      "employeeName": "Madison Torres",
+      "designation": "Brand Manager",
+      "email": "madison.torres@apollo.com",
+      "passportId": "T5647382",
+      "profileDescription": "Develops and manages brand positioning strategies.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "employeeId": "45",
+      "employeeName": "Gabriel Peterson",
+      "designation": "Infrastructure Engineer",
+      "email": "gabriel.peterson@apollo.com",
+      "passportId": "P1029388",
+      "profileDescription": "Designs and maintains core IT infrastructure systems.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/45.jpg"
+    },
+    {
+      "employeeId": "46",
+      "employeeName": "Scarlett Gray",
+      "designation": "Recruitment Specialist",
+      "email": "scarlett.gray@apollo.com",
+      "passportId": "G8473623",
+      "profileDescription": "Manages hiring pipelines and candidate experience.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/46.jpg"
+    },
+    {
+      "employeeId": "47",
+      "employeeName": "Luke Hughes",
+      "designation": "Systems Engineer",
+      "email": "luke.hughes@apollo.com",
+      "passportId": "H9182739",
+      "profileDescription": "Implements and optimizes enterprise-level system solutions.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/47.jpg"
+    },
+    {
+      "employeeId": "48",
+      "employeeName": "Penelope Price",
+      "designation": "Compliance Officer",
+      "email": "penelope.price@apollo.com",
+      "passportId": "P3829104",
+      "profileDescription": "Ensures regulatory compliance and corporate governance standards.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/48.jpg"
+    },
+    {
+      "employeeId": "49",
+      "employeeName": "Henry Brooks",
+      "designation": "Field Engineer",
+      "email": "henry.brooks@apollo.com",
+      "passportId": "B5647381",
+      "profileDescription": "Provides on-site technical implementation and maintenance.",
+      "profilePicture": "https://randomuser.me/api/portraits/men/49.jpg"
+    },
+    {
+      "employeeId": "50",
+      "employeeName": "Layla Butler",
+      "designation": "Executive Assistant",
+      "email": "layla.butler@apollo.com",
+      "passportId": "B9182732",
+      "profileDescription": "Supports senior leadership with scheduling and coordination tasks.",
+      "profilePicture": "https://randomuser.me/api/portraits/women/50.jpg"
+    }
+  ]
+}
