@@ -9,7 +9,7 @@ function App() {
   return (
     <section className="font-serif">
       <Header />
-      <div className="flex flex-wrap flex-col lg:flex-row justify-between">
+      <div className="flex flex-wrap flex-col md:flex-row lg:flex-row justify-between">
         <AddEmployee />
         <EmployeeList />
         <EmployeeDetails />
