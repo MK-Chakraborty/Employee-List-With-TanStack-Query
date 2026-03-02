@@ -2,6 +2,7 @@ export default function EmployeeDetails() {
   return (
     <section className="w-full md:w-1/5 pr-2">
       <div className="bg-sky-300 p-4 rounded-2xl text-center w-full">
+        <p className="text-xl font-bold mb-2">ID: 1</p>
         <img
           src="https://randomuser.me/api/portraits/men/5.jpg"
           alt="Mario Finch"
@@ -18,6 +19,14 @@ export default function EmployeeDetails() {
           Experienced executive leading organizational growth, strategic
           planning, and international partnerships across multiple sectors.
         </p>
+        <div className="flex flex-wrap gap-2 justify-around">
+          <button className="bg-sky-400 p-1 rounded-lg hover:bg-amber-200">
+            Edit
+          </button>
+          <button className="bg-sky-400 p-1 rounded-lg hover:bg-red-300">
+            Delete
+          </button>
+        </div>
       </div>
     </section>
   );

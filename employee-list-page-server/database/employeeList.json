@@ -7,7 +7,15 @@
       "email": "mario.finch@apollo.com",
       "passportId": "M9048647",
       "profileDescription": "Experienced executive leading organizational growth, strategic planning, and international partnerships across multiple sectors.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/5.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/5.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Strategic Planning",
+        "Leadership",
+        "Business Development",
+        "Corporate Governance",
+        "Stakeholder Management"
+      ]
     },
     {
       "employeeId": "2",
@@ -16,7 +24,14 @@
       "email": "sophia.turner@apollo.com",
       "passportId": "T4827391",
       "profileDescription": "Oversees company operations ensuring efficiency, scalability, and cross-department collaboration.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/2.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Operations Management",
+        "Process Optimization",
+        "KPI Management",
+        "Cross-functional Leadership"
+      ]
     },
     {
       "employeeId": "3",
@@ -25,7 +40,14 @@
       "email": "liam.carter@apollo.com",
       "passportId": "C8392014",
       "profileDescription": "Leads technology strategy, innovation initiatives, and digital transformation programs.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/3.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Technology Strategy",
+        "Cloud Architecture",
+        "System Design",
+        "Innovation Management"
+      ]
     },
     {
       "employeeId": "4",
@@ -34,7 +56,14 @@
       "email": "olivia.bennett@apollo.com",
       "passportId": "B4829103",
       "profileDescription": "Responsible for financial planning, risk management, and corporate investment strategies.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/4.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/4.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Financial Planning",
+        "Risk Management",
+        "Budgeting",
+        "Investment Strategy"
+      ]
     },
     {
       "employeeId": "5",
@@ -43,9 +72,15 @@
       "email": "noah.richardson@apollo.com",
       "passportId": "R9021837",
       "profileDescription": "Drives brand growth, digital campaigns, and market positioning strategies globally.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/13.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/13.jpg",
+      "employmentStatus": "paidLeave",
+      "skillSet": [
+        "Brand Strategy",
+        "Digital Marketing",
+        "Campaign Management",
+        "Market Analysis"
+      ]
     },
-
     {
       "employeeId": "6",
       "employeeName": "Emma Collins",
@@ -53,7 +88,14 @@
       "email": "emma.collins@apollo.com",
       "passportId": "C1839204",
       "profileDescription": "Leads talent acquisition, workforce planning, and organizational culture initiatives.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/6.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/6.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Talent Acquisition",
+        "Workforce Planning",
+        "Employee Engagement",
+        "HR Policy Development"
+      ]
     },
     {
       "employeeId": "7",
@@ -62,7 +104,14 @@
       "email": "james.walker@apollo.com",
       "passportId": "W8302947",
       "profileDescription": "Specializes in scalable backend systems, APIs, and distributed architectures.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/7.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/7.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Backend Development",
+        "Microservices",
+        "API Design",
+        "Distributed Systems"
+      ]
     },
     {
       "employeeId": "8",
@@ -71,7 +120,14 @@
       "email": "ava.martinez@apollo.com",
       "passportId": "M9283746",
       "profileDescription": "Coordinates product lifecycle from ideation to launch, ensuring user-centric solutions.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/8.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/8.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Product Roadmapping",
+        "Agile Methodology",
+        "User Research",
+        "Stakeholder Communication"
+      ]
     },
     {
       "employeeId": "9",
@@ -80,7 +136,9 @@
       "email": "benjamin.harris@apollo.com",
       "passportId": "H7482910",
       "profileDescription": "Maintains CI/CD pipelines, cloud infrastructure, and system reliability processes.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg",
+      "employmentStatus": "nonPaidLeave",
+      "skillSet": ["CI/CD", "Docker", "Kubernetes", "Cloud Infrastructure"]
     },
     {
       "employeeId": "10",
@@ -89,7 +147,9 @@
       "email": "isabella.clark@apollo.com",
       "passportId": "C1928374",
       "profileDescription": "Designs intuitive user interfaces and seamless digital experiences.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/10.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/10.jpg",
+      "employmentStatus": "employed",
+      "skillSet": ["UI Design", "UX Research", "Figma", "Prototyping"]
     },
     {
       "employeeId": "11",
@@ -98,7 +158,14 @@
       "email": "william.scott@apollo.com",
       "passportId": "S8473621",
       "profileDescription": "Analyzes business processes, identifies improvement areas, and bridges technical and operational teams.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/11.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/11.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Requirements Gathering",
+        "Process Modeling",
+        "Data Analysis",
+        "Stakeholder Communication"
+      ]
     },
     {
       "employeeId": "12",
@@ -107,7 +174,14 @@
       "email": "mia.adams@apollo.com",
       "passportId": "A9382710",
       "profileDescription": "Develops engaging content strategies aligned with brand and customer engagement goals.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/12.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/12.jpg",
+      "employmentStatus": "paidLeave",
+      "skillSet": [
+        "Content Planning",
+        "SEO Writing",
+        "Brand Messaging",
+        "Editorial Strategy"
+      ]
     },
     {
       "employeeId": "13",
@@ -116,7 +190,14 @@
       "email": "alexander.young@apollo.com",
       "passportId": "Y3748291",
       "profileDescription": "Ensures system security, conducts vulnerability assessments, and manages compliance frameworks.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/1.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Vulnerability Assessment",
+        "Penetration Testing",
+        "ISO 27001",
+        "Network Security"
+      ]
     },
     {
       "employeeId": "14",
@@ -125,7 +206,14 @@
       "email": "charlotte.king@apollo.com",
       "passportId": "K8473629",
       "profileDescription": "Builds predictive models and transforms complex datasets into actionable insights.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/14.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/14.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Machine Learning",
+        "Python",
+        "Statistical Modeling",
+        "Data Visualization"
+      ]
     },
     {
       "employeeId": "15",
@@ -134,7 +222,14 @@
       "email": "daniel.wright@apollo.com",
       "passportId": "W1827364",
       "profileDescription": "Designs and maintains secure, high-performance network infrastructures.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/15.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/15.jpg",
+      "employmentStatus": "exEmployee",
+      "skillSet": [
+        "Network Design",
+        "Routing & Switching",
+        "Firewall Configuration",
+        "Troubleshooting"
+      ]
     },
     {
       "employeeId": "16",
@@ -143,7 +238,14 @@
       "email": "amelia.hill@apollo.com",
       "passportId": "H9182736",
       "profileDescription": "Ensures product quality through automated and manual testing strategies.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/16.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/16.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Test Automation",
+        "Manual Testing",
+        "Selenium",
+        "Bug Tracking"
+      ]
     },
     {
       "employeeId": "17",
@@ -152,7 +254,9 @@
       "email": "matthew.green@apollo.com",
       "passportId": "G5627381",
       "profileDescription": "Designs scalable cloud solutions and oversees cloud migration strategies.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/17.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/17.jpg",
+      "employmentStatus": "employed",
+      "skillSet": ["AWS", "Azure", "Cloud Migration", "Infrastructure as Code"]
     },
     {
       "employeeId": "18",
@@ -161,7 +265,14 @@
       "email": "harper.lewis@apollo.com",
       "passportId": "L1938472",
       "profileDescription": "Manages budgeting, forecasting, and financial reporting processes.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/18.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/18.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Financial Reporting",
+        "Forecasting",
+        "Cost Control",
+        "ERP Systems"
+      ]
     },
     {
       "employeeId": "19",
@@ -170,7 +281,9 @@
       "email": "joseph.hall@apollo.com",
       "passportId": "H6728391",
       "profileDescription": "Builds interactive and responsive user interfaces using modern frameworks.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg",
+      "employmentStatus": "nonPaidLeave",
+      "skillSet": ["React", "JavaScript", "CSS", "Responsive Design"]
     },
     {
       "employeeId": "20",
@@ -179,7 +292,14 @@
       "email": "evelyn.allen@apollo.com",
       "passportId": "A4827365",
       "profileDescription": "Develops scalable backend services and database-driven applications.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/20.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/20.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Node.js",
+        "Database Design",
+        "REST APIs",
+        "Authentication Systems"
+      ]
     },
     {
       "employeeId": "21",
@@ -188,7 +308,14 @@
       "email": "samuel.baker@apollo.com",
       "passportId": "B8273649",
       "profileDescription": "Provides technical support, troubleshooting, and system maintenance.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/21.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/21.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Troubleshooting",
+        "Hardware Support",
+        "System Maintenance",
+        "Helpdesk Support"
+      ]
     },
     {
       "employeeId": "22",
@@ -197,7 +324,14 @@
       "email": "abigail.nelson@apollo.com",
       "passportId": "N7364829",
       "profileDescription": "Oversees daily operations and ensures process optimization.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/22.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/22.jpg",
+      "employmentStatus": "paidLeave",
+      "skillSet": [
+        "Process Improvement",
+        "Team Leadership",
+        "Resource Planning",
+        "Performance Metrics"
+      ]
     },
     {
       "employeeId": "23",
@@ -206,7 +340,14 @@
       "email": "david.carter@apollo.com",
       "passportId": "C2938475",
       "profileDescription": "Provides legal guidance, compliance monitoring, and contract review.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/23.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/23.jpg",
+      "employmentStatus": "exEmployee",
+      "skillSet": [
+        "Contract Review",
+        "Corporate Law",
+        "Compliance",
+        "Risk Assessment"
+      ]
     },
     {
       "employeeId": "24",
@@ -215,7 +356,14 @@
       "email": "ella.mitchell@apollo.com",
       "passportId": "M4839201",
       "profileDescription": "Ensures client satisfaction and long-term relationship management.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/24.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/24.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Client Relationship Management",
+        "Onboarding",
+        "Retention Strategy",
+        "CRM Tools"
+      ]
     },
     {
       "employeeId": "25",
@@ -224,7 +372,14 @@
       "email": "michael.perez@apollo.com",
       "passportId": "P9182734",
       "profileDescription": "Leads sales strategy, partnerships, and revenue growth initiatives.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/25.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/25.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Sales Strategy",
+        "Negotiation",
+        "Revenue Growth",
+        "Partnership Development"
+      ]
     },
     {
       "employeeId": "26",
@@ -233,7 +388,14 @@
       "email": "sofia.roberts@apollo.com",
       "passportId": "R7482913",
       "profileDescription": "Manages vendor relationships and procurement strategies.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/26.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/26.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Vendor Management",
+        "Supply Chain",
+        "Contract Negotiation",
+        "Cost Optimization"
+      ]
     },
     {
       "employeeId": "27",
@@ -242,7 +404,14 @@
       "email": "christopher.evans@apollo.com",
       "passportId": "E3829104",
       "profileDescription": "Develops high-performance mobile applications for Android and iOS.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/27.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/27.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Flutter",
+        "Android Development",
+        "iOS Development",
+        "Mobile UI Design"
+      ]
     },
     {
       "employeeId": "28",
@@ -251,7 +420,14 @@
       "email": "grace.phillips@apollo.com",
       "passportId": "P5738291",
       "profileDescription": "Conducts market research and competitive analysis for strategic decisions.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/28.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/28.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Market Research",
+        "Competitive Analysis",
+        "Data Interpretation",
+        "Report Writing"
+      ]
     },
     {
       "employeeId": "29",
@@ -260,7 +436,14 @@
       "email": "andrew.campbell@apollo.com",
       "passportId": "C8473921",
       "profileDescription": "Maintains servers, system configurations, and enterprise infrastructure.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/29.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/29.jpg",
+      "employmentStatus": "nonPaidLeave",
+      "skillSet": [
+        "Linux Administration",
+        "Server Maintenance",
+        "Active Directory",
+        "Backup Solutions"
+      ]
     },
     {
       "employeeId": "30",
@@ -269,7 +452,14 @@
       "email": "lily.parker@apollo.com",
       "passportId": "P1029384",
       "profileDescription": "Leads SEO, SEM, and digital advertising campaigns.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/30.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/30.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "SEO",
+        "Google Ads",
+        "Social Media Marketing",
+        "Marketing Analytics"
+      ]
     },
     {
       "employeeId": "31",
@@ -278,7 +468,14 @@
       "email": "joshua.edwards@apollo.com",
       "passportId": "E5647382",
       "profileDescription": "Ensures data integrity, security, and database optimization.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/31.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/31.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "SQL",
+        "Database Optimization",
+        "Backup & Recovery",
+        "Data Security"
+      ]
     },
     {
       "employeeId": "32",
@@ -287,7 +484,14 @@
       "email": "victoria.stewart@apollo.com",
       "passportId": "S8473620",
       "profileDescription": "Designs and coordinates professional development programs.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/32.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/32.jpg",
+      "employmentStatus": "paidLeave",
+      "skillSet": [
+        "Training Design",
+        "Workshop Facilitation",
+        "Learning Management Systems",
+        "Performance Evaluation"
+      ]
     },
     {
       "employeeId": "33",
@@ -296,7 +500,14 @@
       "email": "ryan.morris@apollo.com",
       "passportId": "M2938471",
       "profileDescription": "Leads engineering teams and oversees complex technical projects.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/33.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/33.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "System Architecture",
+        "Team Leadership",
+        "Code Review",
+        "Agile Development"
+      ]
     },
     {
       "employeeId": "34",
@@ -305,7 +516,14 @@
       "email": "chloe.rogers@apollo.com",
       "passportId": "R9182730",
       "profileDescription": "Creates compelling visual content for digital and print media.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/34.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/34.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Adobe Photoshop",
+        "Illustrator",
+        "Brand Identity",
+        "Print Design"
+      ]
     },
     {
       "employeeId": "35",
@@ -314,7 +532,14 @@
       "email": "nathan.reed@apollo.com",
       "passportId": "R4839207",
       "profileDescription": "Monitors and mitigates security threats across IT systems.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/35.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/35.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "SIEM",
+        "Threat Detection",
+        "Incident Response",
+        "Risk Analysis"
+      ]
     },
     {
       "employeeId": "36",
@@ -323,7 +548,14 @@
       "email": "zoe.cook@apollo.com",
       "passportId": "C8392017",
       "profileDescription": "Manages corporate communications and public engagement strategies.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/36.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/36.jpg",
+      "employmentStatus": "exEmployee",
+      "skillSet": [
+        "Media Relations",
+        "Corporate Communication",
+        "Press Releases",
+        "Event Management"
+      ]
     },
     {
       "employeeId": "37",
@@ -332,7 +564,14 @@
       "email": "aaron.bailey@apollo.com",
       "passportId": "B2738491",
       "profileDescription": "Coordinates cross-functional teams to ensure timely project delivery.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/37.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/37.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Project Scheduling",
+        "Documentation",
+        "Risk Tracking",
+        "Team Coordination"
+      ]
     },
     {
       "employeeId": "38",
@@ -341,7 +580,14 @@
       "email": "hannah.murphy@apollo.com",
       "passportId": "M1029387",
       "profileDescription": "Supports executive management with administrative coordination.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/38.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/38.jpg",
+      "employmentStatus": "nonPaidLeave",
+      "skillSet": [
+        "Administrative Support",
+        "Calendar Management",
+        "Office Coordination",
+        "Documentation"
+      ]
     },
     {
       "employeeId": "39",
@@ -350,7 +596,14 @@
       "email": "dylan.foster@apollo.com",
       "passportId": "F9182736",
       "profileDescription": "Develops machine learning models and AI-driven solutions.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/39.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/39.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Machine Learning",
+        "Deep Learning",
+        "TensorFlow",
+        "Model Deployment"
+      ]
     },
     {
       "employeeId": "40",
@@ -359,7 +612,9 @@
       "email": "natalie.simmons@apollo.com",
       "passportId": "S8473628",
       "profileDescription": "Handles employee relations and recruitment processes.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/40.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/40.jpg",
+      "employmentStatus": "employed",
+      "skillSet": ["Recruitment", "Employee Relations", "HRIS", "Onboarding"]
     },
     {
       "employeeId": "41",
@@ -368,7 +623,14 @@
       "email": "caleb.ross@apollo.com",
       "passportId": "R2938472",
       "profileDescription": "Resolves technical issues and supports enterprise clients.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/41.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/41.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Technical Troubleshooting",
+        "Customer Support",
+        "System Diagnostics",
+        "Ticketing Systems"
+      ]
     },
     {
       "employeeId": "42",
@@ -377,7 +639,14 @@
       "email": "aria.cox@apollo.com",
       "passportId": "C9182735",
       "profileDescription": "Optimizes website visibility and search engine rankings.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/42.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/42.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Keyword Research",
+        "On-page SEO",
+        "Google Analytics",
+        "Link Building"
+      ]
     },
     {
       "employeeId": "43",
@@ -386,7 +655,9 @@
       "email": "isaac.ward@apollo.com",
       "passportId": "W4839209",
       "profileDescription": "Builds end-to-end web applications and scalable systems.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/43.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/43.jpg",
+      "employmentStatus": "employed",
+      "skillSet": ["React", "Node.js", "Database Design", "API Integration"]
     },
     {
       "employeeId": "44",
@@ -395,7 +666,14 @@
       "email": "madison.torres@apollo.com",
       "passportId": "T5647382",
       "profileDescription": "Develops and manages brand positioning strategies.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/44.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/44.jpg",
+      "employmentStatus": "exEmployee",
+      "skillSet": [
+        "Brand Strategy",
+        "Market Positioning",
+        "Campaign Planning",
+        "Consumer Insights"
+      ]
     },
     {
       "employeeId": "45",
@@ -404,7 +682,14 @@
       "email": "gabriel.peterson@apollo.com",
       "passportId": "P1029388",
       "profileDescription": "Designs and maintains core IT infrastructure systems.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/45.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/45.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Server Infrastructure",
+        "Virtualization",
+        "Cloud Platforms",
+        "Network Security"
+      ]
     },
     {
       "employeeId": "46",
@@ -413,7 +698,14 @@
       "email": "scarlett.gray@apollo.com",
       "passportId": "G8473623",
       "profileDescription": "Manages hiring pipelines and candidate experience.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/46.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/46.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "Talent Sourcing",
+        "Interviewing",
+        "Employer Branding",
+        "ATS Management"
+      ]
     },
     {
       "employeeId": "47",
@@ -422,7 +714,14 @@
       "email": "luke.hughes@apollo.com",
       "passportId": "H9182739",
       "profileDescription": "Implements and optimizes enterprise-level system solutions.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/47.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/47.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "System Integration",
+        "Automation",
+        "Performance Optimization",
+        "Infrastructure Design"
+      ]
     },
     {
       "employeeId": "48",
@@ -431,7 +730,14 @@
       "email": "penelope.price@apollo.com",
       "passportId": "P3829104",
       "profileDescription": "Ensures regulatory compliance and corporate governance standards.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/48.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/48.jpg",
+      "employmentStatus": "paidLeave",
+      "skillSet": [
+        "Regulatory Compliance",
+        "Audit Management",
+        "Policy Development",
+        "Risk Mitigation"
+      ]
     },
     {
       "employeeId": "49",
@@ -440,7 +746,14 @@
       "email": "henry.brooks@apollo.com",
       "passportId": "B5647381",
       "profileDescription": "Provides on-site technical implementation and maintenance.",
-      "profilePicture": "https://randomuser.me/api/portraits/men/49.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/men/49.jpg",
+      "employmentStatus": "employed",
+      "skillSet": [
+        "On-site Installation",
+        "Technical Maintenance",
+        "Hardware Configuration",
+        "Client Support"
+      ]
     },
     {
       "employeeId": "50",
@@ -449,7 +762,14 @@
       "email": "layla.butler@apollo.com",
       "passportId": "B9182732",
       "profileDescription": "Supports senior leadership with scheduling and coordination tasks.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/50.jpg"
+      "profilePicture": "https://randomuser.me/api/portraits/women/50.jpg",
+      "employmentStatus": "exEmployee",
+      "skillSet": [
+        "Executive Support",
+        "Scheduling",
+        "Document Management",
+        "Communication Coordination"
+      ]
     }
   ]
 }
