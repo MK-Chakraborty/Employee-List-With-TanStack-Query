@@ -1,7 +1,13 @@
-export default function EmployeeListCard({ employee, onEmployeeCardClick }) {
+import { useContext } from "react";
+import { EmployeeContext } from "../context";
+
+export default function EmployeeListCard({ employee }) {
+  const { setEmpId } = useContext(EmployeeContext);
   return (
     <div
-      onClick={() => onEmployeeCardClick(employee.employeeId)}
+      onClick={() => {
+        setEmpId(employee.id);
+      }}
       className="bg-sky-300 p-4 rounded-2xl text-center w-full md:w-23/50 lg:w-8/25 relative cursor-pointer"
     >
       <p className="absolute top-0 right-0 text-lg font-black m-2 px-1.5 border rounded-full">

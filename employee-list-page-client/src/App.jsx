@@ -1,11 +1,14 @@
 import "./App.css";
 import Page from "./components/Page";
+import EmployeeProvider from "./providers/EmployeeProvider";
 import EmployeesProvider from "./providers/EmployeesProvider";
 
 function App() {
   return (
     <EmployeesProvider>
-      <Page />
+      <EmployeeProvider>
+        <Page />
+      </EmployeeProvider>
     </EmployeesProvider>
   );
 }
