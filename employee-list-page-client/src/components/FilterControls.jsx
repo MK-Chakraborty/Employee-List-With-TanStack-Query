@@ -27,10 +27,10 @@ export default function FilterControls() {
           id="employees"
           className="border border-sky-800 my-2 p-2 rounded-2xl"
         >
-          <option value="volvo">Employeed</option>
-          <option value="saab">On Non-Pain Leave</option>
-          <option value="mercedes">On Paid Leave</option>
-          <option value="audi">Ex Employee</option>
+          <option value="volvo">Employeed 🟢</option>
+          <option value="saab">On Non-Pain Leave 🟡</option>
+          <option value="mercedes">On Paid Leave 🔵</option>
+          <option value="audi">Ex Employee 🔴</option>
         </select>
       </div>
     </div>

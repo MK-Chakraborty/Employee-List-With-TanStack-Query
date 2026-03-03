@@ -1,6 +1,9 @@
-export default function EmployeeListCard({ employee }) {
+export default function EmployeeListCard({ employee, onEmployeeCardClick }) {
   return (
-    <div className="bg-sky-300 p-4 rounded-2xl text-center w-full md:w-23/50 lg:w-8/25 relative cursor-pointer">
+    <div
+      onClick={() => onEmployeeCardClick(employee.employeeId)}
+      className="bg-sky-300 p-4 rounded-2xl text-center w-full md:w-23/50 lg:w-8/25 relative cursor-pointer"
+    >
       <p className="absolute top-0 right-0 text-lg font-black m-2 px-1.5 border rounded-full">
         →
       </p>

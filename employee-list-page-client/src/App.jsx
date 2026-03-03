@@ -1,23 +1,12 @@
 import "./App.css";
-import AddEmployee from "./components/AddEmployee";
-import EmployeeDetails from "./components/EmployeeDetails";
-import EmployeeList from "./components/EmployeeList";
-import FilterControls from "./components/FilterControls";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
+import Page from "./components/Page";
+import EmployeesProvider from "./providers/EmployeesProvider";
 
 function App() {
   return (
-    <section className="font-serif">
-      <Header />
-      <FilterControls />
-      <div className="flex flex-wrap flex-col md:flex-row lg:flex-row justify-between">
-        <AddEmployee />
-        <EmployeeList />
-        <EmployeeDetails />
-      </div>
-      <Footer />
-    </section>
+    <EmployeesProvider>
+      <Page />
+    </EmployeesProvider>
   );
 }
 

@@ -1,36 +1,21 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
+import { useContext } from "react";
+import { EmployeesContext } from "../context";
 import EmployeeListCard from "./EmployeeListCard";
 export default function EmployeeList() {
-  const [employees, setEmployees] = useState([]);
-  const [error, setError] = useState([]);
+  const { employees } = useContext(EmployeesContext);
 
-  useEffect(() => {
-    const getAllEmployees = async () => {
-      try {
-        const response = await axios.get(`http://localhost:3000/employees`);
-        if (response && response.data) {
-          setEmployees(response.data);
-        }
-      } catch (err) {
-        if (err.response) {
-          // error came from server
-          setError(
-            `Eooro from server: status: ${err.response.status} - message: ${err.response.data}`,
-          );
-        } else {
-          // network error, didn't reach the server
-          setError(err.message);
-        }
-      }
-    };
-    getAllEmployees();
-  }, []);
+  const handleEmployeeCardClick = (id) => {
+    console.log(id);
+  };
 
   return (
     <section className="w-full md:w-3/5 flex flex-wrap justify-evenly gap-2 px-0 sm:px-2">
       {employees.map((employee) => (
-        <EmployeeListCard key={employee.employeeId} employee={employee} />
+        <EmployeeListCard
+          key={employee.employeeId}
+          employee={employee}
+          onEmployeeCardClick={handleEmployeeCardClick}
+        />
       ))}
     </section>
   );
