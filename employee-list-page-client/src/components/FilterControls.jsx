@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { FilterContext } from "../context";
+
 export default function FilterControls() {
+  const { filter, setFilter } = useContext(FilterContext);
+
   return (
     <div className="my-5 mx-2 p-3 bg-sky-300 rounded-2xl flex items-center gap-2 justify-between flex-wrap">
       <p className="text-lg md:text-xl font-bold">Filter Employee List:</p>
@@ -23,14 +28,18 @@ export default function FilterControls() {
         </label>
 
         <select
+          onChange={(e) => {
+            setFilter(e.target.value);
+          }}
           name="employees"
           id="employees"
           className="border border-sky-800 my-2 p-2 rounded-2xl"
         >
-          <option value="volvo">Employeed 🟢</option>
-          <option value="saab">On Non-Pain Leave 🟡</option>
-          <option value="mercedes">On Paid Leave 🔵</option>
-          <option value="audi">Ex Employee 🔴</option>
+          <option value="">Refreash Filter</option>
+          <option value="employed">Employeed 🟢</option>
+          <option value="nonPaidLeave">On Non-Pain Leave 🟡</option>
+          <option value="paidLeave">On Paid Leave 🔵</option>
+          <option value="exEmployee">Ex Employee 🔴</option>
         </select>
       </div>
     </div>

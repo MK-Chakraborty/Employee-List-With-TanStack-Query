@@ -29,7 +29,9 @@ export default function EmployeesProvider({ children }) {
   }, []);
 
   return (
-    <EmployeesContext.Provider value={{ employees, setEmployees, error }}>
+    <EmployeesContext.Provider
+      value={{ employees, setEmployees, error, setError }}
+    >
       {children}
     </EmployeesContext.Provider>
   );
