@@ -29,7 +29,7 @@ export default function EmployeeProvider({ children }) {
       }
     };
     getSingleEmployee();
-  }, [empId]);
+  }, [empId, setError]);
 
   return (
     <EmployeeContext.Provider value={{ setEmpId, employee }}>

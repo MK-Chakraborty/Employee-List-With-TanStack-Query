@@ -5,21 +5,27 @@ import { EmployeesContext, FilterContext } from "../context";
 export default function FilterProvider({ children }) {
   const { setEmployees, setError } = useContext(EmployeesContext);
   const [filter, setFilter] = useState("");
+  const [searchTerm, setSearchTerm] = useState("");
 
   useEffect(() => {
     const getFilteredEmployees = async () => {
-      let response = [];
       try {
-        if (filter) {
-          response = await axios.get(
-            `http://localhost:3000/employees?employmentStatus=${filter}`,
+        const url = filter
+          ? `http://localhost:3000/employees?employmentStatus=${filter}`
+          : `http://localhost:3000/employees`;
+
+        const response = await axios.get(url);
+        let employees = response.data;
+
+        if (searchTerm) {
+          employees = employees.filter((employee) =>
+            employee.employeeName
+              .toLowerCase()
+              .includes(searchTerm.toLowerCase()),
           );
-        } else {
-          response = await axios.get(`http://localhost:3000/employees`);
         }
-        if (response && response.data) {
-          setEmployees(response.data);
-        }
+
+        setEmployees(employees);
       } catch (err) {
         if (err.response) {
           // error came from server
@@ -34,10 +40,10 @@ export default function FilterProvider({ children }) {
     };
 
     getFilteredEmployees();
-  }, [filter, setEmployees, setError]);
+  }, [filter, setEmployees, searchTerm, setError]);
 
   return (
-    <FilterContext.Provider value={{ filter, setFilter }}>
+    <FilterContext.Provider value={{ filter, setFilter, setSearchTerm }}>
       {children}
     </FilterContext.Provider>
   );
