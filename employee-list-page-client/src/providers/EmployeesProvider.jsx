@@ -25,6 +25,7 @@ export default function EmployeesProvider({ children }) {
         }
       }
     };
+
     getAllEmployees();
   }, []);
 

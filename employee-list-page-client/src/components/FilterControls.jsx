@@ -36,7 +36,7 @@ export default function FilterControls() {
         </button>
       </form>
       <div>
-        <label for="employees" className="pr-2">
+        <label htmlFor="employees" className="pr-2">
           Filter Employees
         </label>
 
