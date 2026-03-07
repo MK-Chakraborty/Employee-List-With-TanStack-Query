@@ -6,6 +6,7 @@ export default function EmployeeProvider({ children }) {
   const { setError } = useContext(EmployeesContext);
   const [empId, setEmpId] = useState(1);
   const [employee, setEmployee] = useState("");
+  const [editable, setEditable] = useState(false);
 
   useEffect(() => {
     const getSingleEmployee = async () => {
@@ -32,7 +33,9 @@ export default function EmployeeProvider({ children }) {
   }, [empId, setError]);
 
   return (
-    <EmployeeContext.Provider value={{ setEmpId, employee }}>
+    <EmployeeContext.Provider
+      value={{ setEmpId, employee, setEmployee, editable, setEditable }}
+    >
       {children}
     </EmployeeContext.Provider>
   );

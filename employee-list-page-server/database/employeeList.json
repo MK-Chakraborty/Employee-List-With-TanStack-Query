@@ -138,12 +138,7 @@
       "profileDescription": "Maintains CI/CD pipelines, cloud infrastructure, and system reliability processes.",
       "profilePicture": "https://randomuser.me/api/portraits/men/9.jpg",
       "employmentStatus": "nonPaidLeave",
-      "skillSet": [
-        "CI/CD",
-        "Docker",
-        "Kubernetes",
-        "Cloud Infrastructure"
-      ]
+      "skillSet": ["CI/CD", "Docker", "Kubernetes", "Cloud Infrastructure"]
     },
     {
       "id": "10",
@@ -154,12 +149,7 @@
       "profileDescription": "Designs intuitive user interfaces and seamless digital experiences.",
       "profilePicture": "https://randomuser.me/api/portraits/women/10.jpg",
       "employmentStatus": "employed",
-      "skillSet": [
-        "UI Design",
-        "UX Research",
-        "Figma",
-        "Prototyping"
-      ]
+      "skillSet": ["UI Design", "UX Research", "Figma", "Prototyping"]
     },
     {
       "id": "11",
@@ -266,12 +256,7 @@
       "profileDescription": "Designs scalable cloud solutions and oversees cloud migration strategies.",
       "profilePicture": "https://randomuser.me/api/portraits/men/17.jpg",
       "employmentStatus": "employed",
-      "skillSet": [
-        "AWS",
-        "Azure",
-        "Cloud Migration",
-        "Infrastructure as Code"
-      ]
+      "skillSet": ["AWS", "Azure", "Cloud Migration", "Infrastructure as Code"]
     },
     {
       "id": "18",
@@ -298,12 +283,7 @@
       "profileDescription": "Builds interactive and responsive user interfaces using modern frameworks.",
       "profilePicture": "https://randomuser.me/api/portraits/men/19.jpg",
       "employmentStatus": "nonPaidLeave",
-      "skillSet": [
-        "React",
-        "JavaScript",
-        "CSS",
-        "Responsive Design"
-      ]
+      "skillSet": ["React", "JavaScript", "CSS", "Responsive Design"]
     },
     {
       "id": "20",
@@ -634,12 +614,7 @@
       "profileDescription": "Handles employee relations and recruitment processes.",
       "profilePicture": "https://randomuser.me/api/portraits/women/40.jpg",
       "employmentStatus": "employed",
-      "skillSet": [
-        "Recruitment",
-        "Employee Relations",
-        "HRIS",
-        "Onboarding"
-      ]
+      "skillSet": ["Recruitment", "Employee Relations", "HRIS", "Onboarding"]
     },
     {
       "id": "41",
@@ -682,12 +657,7 @@
       "profileDescription": "Builds end-to-end web applications and scalable systems.",
       "profilePicture": "https://randomuser.me/api/portraits/men/43.jpg",
       "employmentStatus": "employed",
-      "skillSet": [
-        "React",
-        "Node.js",
-        "Database Design",
-        "API Integration"
-      ]
+      "skillSet": ["React", "Node.js", "Database Design", "API Integration"]
     },
     {
       "id": "44",
@@ -800,17 +770,6 @@
         "Document Management",
         "Communication Coordination"
       ]
-    },
-    {
-      "id": "b704d1d8-14c2-4bb2-a0d5-76ab63d8cd77",
-      "employeeName": "Martina Noice",
-      "designation": "Program Organizar",
-      "email": "martina.noice@appolo.com",
-      "passportId": "M29845",
-      "profileDescription": "Experienced executive leading organizational growth, strategic planning, and international partnerships across multiple sectors.",
-      "profilePicture": "https://randomuser.me/api/portraits/women/31.jpg",
-      "employmentStatus": "employed",
-      "skillSet": []
     }
   ]
 }

@@ -1,8 +1,43 @@
+import axios from "axios";
 import { useContext } from "react";
-import { EmployeeContext } from "../context";
+import { EmployeeContext, EmployeesContext } from "../context";
 
 export default function EmployeeDetails() {
-  const { employee } = useContext(EmployeeContext);
+  const { setEmpId, employee, setEditable } = useContext(EmployeeContext);
+  const { setError } = useContext(EmployeesContext);
+
+  const handleDeleteEmployee = async (id) => {
+    if (id === "1") {
+      alert(
+        "Hey Sailor! Chill Up! You can't delete the Managing Director like this! Phew...",
+      );
+      return;
+    }
+    if (
+      confirm(
+        `🚫 Are you sure? 🛑 \nThis action can't be retracted.\nIf you want to update employee information, you can just edit the information. \nPress OK to continue. `,
+      )
+    ) {
+      try {
+        const response = await axios.delete(
+          `http://localhost:3000/employees/${id}`,
+        );
+        setEmpId("1");
+        response.status === 200 &&
+          alert(`Employee Information Deleted Successfully! 💔`);
+      } catch (err) {
+        if (err.response) {
+          // error came from server
+          setError(`
+            Error from server: status: ${err.response.status} - message: ${err.response.data}
+            `);
+        } else {
+          // network error, didn't reach the server
+          setError(err.message);
+        }
+      }
+    }
+  };
 
   return (
     <section className="w-full md:w-1/5 pr-2">
@@ -31,10 +66,16 @@ export default function EmployeeDetails() {
         <hr />
         <p className="text-xs my-2">{employee.profileDescription}</p>
         <div className="flex flex-wrap gap-2 justify-around">
-          <button className="bg-sky-400 p-1 rounded-lg hover:bg-amber-200">
+          <button
+            onClick={() => setEditable(true)}
+            className="bg-sky-400 p-1 rounded-lg hover:bg-amber-200"
+          >
             Edit
           </button>
-          <button className="bg-sky-400 p-1 rounded-lg hover:bg-red-300">
+          <button
+            onClick={() => handleDeleteEmployee(employee.id)}
+            className="bg-sky-400 p-1 rounded-lg hover:bg-red-300 cursor-no-drop"
+          >
             Delete
           </button>
         </div>
